@@ -1,0 +1,214 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e68c;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: url('https://png.pngtree.com/png-vector/20240628/ourmid/pngtree-alien-written-language-similar-to-egyptian-ancient-hieroglyphics-png-image_12727889.png') repeat;
+
+    background-color: #5b3921;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid #d2691e;
+}
+
+.site-title1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 165, 0, 0.7);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+header nav a:hover {
+    background-color: #d2691e;
+    transform: scale(1.1);
+}
+
+.about-section {
+    padding: 20px;
+    background-color: #d9c69c;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.image-gallery {
+    padding: 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #5b3921;
+    border-radius: 10px;
+}
+
+.image-description {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.links-section {
+    margin: 20px;
+}
+
+.links-section h2 {
+    color: #5b3921;
+}
+
+.links-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links-section li {
+    margin: 10px 0;
+}
+
+.links-section a {
+    text-decoration: none;
+    color: #5b3921;
+    border-bottom: 1px solid #5b3921;
+    transition: color 0.3s;
+}
+
+.links-section a:hover {
+    color: #d2691e;
+}
+
+footer {
+    background: url('https://png.pngtree.com/png-vector/20240628/ourmid/pngtree-alien-written-language-similar-to-egyptian-ancient-hieroglyphics-png-image_12727889.png') repeat;
+    background-color: #5b3921;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    border-top: 5px solid #d2691e;
+    font-size: 14px;
+}
+
+
+
+
+.about-section {
+    padding: 20px;
+    background-color: #d9c69c;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.timeline-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.timeline-table th,
+.timeline-table td {
+    border: 2px solid #5b3921;
+    padding: 10px;
+    text-align: right;
+}
+
+.timeline-table th {
+    background-color: #d2691e;
+
+    color: white;
+}
+
+.timeline-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.timeline-table tr:hover {
+    background-color: #e6e6e6;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container,
+.row,
+.col-md-4,
+.col-md-8 {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container,
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.container img,
+.row img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+    clear: both;
+}
+
+
+
+
+
+
+
+.col-md-8,
+.col-md-4 {
+    border: 2px solid black;
+}
+
+.col-md-6 img {
+    border: 2px solid black;
+}
+
+.col-md-8,
+.col-md-4 {
+    border: 2px solid black !important;
+}
